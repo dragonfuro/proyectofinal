@@ -1,0 +1,796 @@
+/* HOJA DE ESTILOS PRINCIPAL */
+
+/* Capas zona común */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+
+#contenedor{
+    position: relative;
+    width: 1182px; /*73.875em*/
+    margin: 0 auto;
+
+
+}
+
+header{
+    float: left;
+    width: 100%;
+
+
+}
+
+#headiz{
+    float: left;
+    width: 20%;
+
+
+}
+
+#head_logo{
+    background-image: url("../imagenes/logo1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+
+#headder{
+    float: left;
+    width: 80%;
+
+
+}
+
+#headder_arriba{
+    float: left;
+    width: 100%;
+
+
+}
+
+#headder_arriba p{
+    float: right;
+    color: #000000;
+    font-size: 1em;
+}
+
+#headder_arriba p:hover{
+    color: #f5b041; 
+    -webkit-transition: all 1s ease;
+}
+
+#headder_abajo{
+    float: left;
+    width: 100%;
+
+
+}
+
+#headder_abajo h1{
+    font-size: 3.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#headder_abajo a{
+    text-decoration: none;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    background: #f2f3f4;
+    height: 60px;
+}
+
+.enlaces_inte{
+    float: left;
+    width: 24.4%;
+    height: 60px;
+    border-right: solid 0.2em #f5b041;
+}
+
+#enl_1{background: #f2f3f4; }
+#enl_2{background: #f2f3f4; }
+#enl_4{background: #f2f3f4; }
+#enl_5{background: #f2f3f4; border: none}
+
+.enlaces_inte a{
+    text-decoration: none;
+}
+
+.enlaces_inte p{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 0.6em;
+}
+
+.enlaces_inte p:hover{
+    color: #f5b041;
+    -webkit-transition: all 1s ease;
+}
+
+.espac_blanco{
+    float: left;
+    width: 100%;
+    background: #fff;
+    height: 15px;
+}
+
+main{
+    float: left;
+    width: 100%;
+
+
+}
+
+article{
+    float: left;
+    width: 70%;
+
+
+}
+
+#ar_arriba{
+    float: left;
+    width: 100%;
+
+
+}
+
+#ar_arriba_img_izq{
+    float: left;
+    width: 65%;
+    background-image: url("../imagenes/juego.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 330px;
+}
+
+#ar_arriba_der{
+    float: left;
+    width: 35%;
+
+
+}
+
+#ar_arriba_der_arrib{
+    float: left;
+    width: 100%;
+
+
+}
+
+#ar_arriba_der_arrib a{
+    text-decoration: none;
+}
+
+#ar_arriba_der P{
+    color: #000000;
+    font-size: 1.5em;
+    padding-left: 0.8em;
+}
+
+
+#ar_arriba_der_med{
+    float: left;
+    width: 100%;
+    padding-left: 1.4em;
+
+}
+
+#ar_arriba_der_abaj{
+    float: left;
+    width: 100%;
+
+
+}
+
+#ar_medio{
+    float: left;
+    width: 100%;
+    background: #f2f3f4;
+}
+
+#ar_medio p{
+    color: #000000;
+}
+
+#ar_medio p:hover{
+    color: #f5b041;
+    -webkit-transition: all 1s ease;
+}
+
+#ar_abajo{
+    float: left;
+    width: 100%;
+    background: #345fa1;
+    height: 170px;
+}
+
+.des_img{
+    float: left;
+    width: 25%;
+    background: #345fa1;
+    height: 170px;
+}
+
+#ar_abajo_img_iz{
+    background-image: url("../imagenes/juegos.jpg"); 
+    background-position: center;
+    background-size: cover;
+}
+#ar_abajo_img_med1{
+    background-image: url("../imagenes/juegos1.jpg"); 
+    background-position: center;
+    background-size: cover; 
+}
+#ar_abajo_img_med2{
+    background-image: url("../imagenes/juegos2.jpg"); 
+    background-position: center;
+    background-size: cover; 
+}
+#ar_abajo_img_der{
+    background-image: url("../imagenes/juegos3.jpg"); 
+    background-position: center;
+    background-size: cover; 
+}
+
+aside{
+    float: left;
+    width: 30%;
+
+}
+
+#titu_noticia{
+    float: left;
+    width: 100%;
+    background: #f2f3f4;
+}
+
+#titu_noticia P{
+    color: #000000;
+    text-align: center;
+}
+
+#titu_noticia P:hover{
+    color: #f5b041;
+    -webkit-transition: all 1s ease;
+
+}
+
+#noticias_novedades{
+    float: left;
+    width: 100%;
+
+
+}
+
+#noticias_novedades p{
+    color: #000000;
+    text-align: center;
+}
+
+footer{
+    float: left;
+    width: 100%;
+}
+
+#foot_arrib{
+    float: left;
+    width: 100%;
+
+
+}
+
+.polit_pag{
+    float: left;
+    width: 25%;
+    background: #f2f3f4;
+
+}
+
+.polit_pag a{
+    text-decoration: none;
+}
+
+.polit_pag p{
+    color: #000000;
+    text-align: center;
+}
+
+.polit_pag p:hover{
+    color: #f5b041;
+    -webkit-transition: all 1s ease;
+}
+
+#foot_abaj{
+    float: left;
+    width: 100%;
+    background: #f2f3f4;
+}
+
+#foot_abaj_iz{
+    float: left;
+    width: 33%;
+
+}
+
+#foot_abaj_mid{
+    float: left;
+    width: 33%;
+    background-image: url("../imagenes/redSocial.jpg"); 
+    background-position: center;
+    background-size: cover; 
+    height: 3.5em;
+}
+
+#foot_abaj_der{
+    float: left;
+    width: 33%;
+
+}
+
+#foot_abaj p{
+    color: #000000;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Medium devices (landscape tablets, 480px to 1200px) */
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+    #contenedor{
+        width: 100%;
+    }
+
+    #ar_abajo_img_iz{
+        background-image: url("../imagenes/juegos.jpg"); 
+        background-position: center;
+        background-size: cover;  
+        width: 50%; 
+    }
+    #ar_abajo_img_med1{
+        background-image: url("../imagenes/juegos1.jpg"); 
+        background-position: center;
+        background-size: cover;  
+        width: 50%;
+    }
+    #ar_abajo_img_med2{
+        background-image: url("../imagenes/juegos2.jpg"); 
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+    #ar_abajo_img_der{
+        background-image: url("../imagenes/juegos3.jpg"); 
+        background-position: center;
+        background-size: cover;  
+        width: 50%;
+    }
+
+    main{
+        height: 720px;
+    }
+
+    #titu_noticia{
+        background: #f2f3f4;
+    }
+    
+    #espacio2_blanco{
+        height: 0em;
+    }
+    
+     #dtall_1{
+        width: 50%;
+        height: 85%;
+    }
+    
+    #dtall_2{
+        width: 50%;
+        height: 85%;
+    }
+    
+    #dtall_3{
+        width: 50%;
+        height: 85%;
+    }
+    
+    #dtall_4{
+        width: 50%;
+        height: 85%;
+    }
+    
+    #asi{
+        padding-top: 6em;
+    }
+    
+    #Requisit{
+        padding-top: 15em;
+    }
+    
+    #foot1{
+        padding-top: 28em;
+    }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+    #contenedor{
+        width: 100%;
+    }
+
+    nav{
+        float: left;
+        width: 100%;
+        background: #ffaaaa;
+        height: 90px;
+    }
+
+    .enlaces_inte{
+        height: 45px;
+    }
+
+    #enl_1{background: #f2f3f4; width: 50%; border: none}
+    #enl_2{background: #f2f3f4; width: 50%; border: none}
+    #enl_4{background: #f2f3f4; width: 50%; border: none}
+    #enl_5{background: #f2f3f4; width: 50%; border: none}
+
+    main{
+        float: left;
+        width: 100%;
+    }
+
+    article{
+        float: left;
+        width: 100%;
+    }
+
+    #ar_arriba{
+        float: left;
+        width: 100%;
+    }
+
+    #ar_arriba_der{
+        width: 100%;
+    }
+
+    #ar_arriba_img_izq{
+        float: left;
+        width: 100%;
+        background-image: url("../imagenes/juego.jpg"); 
+        background-position: center;
+        background-size: cover;
+    }
+
+    #ar_abajo_img_iz{
+        background-image: url("../imagenes/juegos.jpg"); 
+        background-position: center;
+        background-size: cover;
+        width: 50%; 
+    }
+    #ar_abajo_img_med1{
+        background-image: url("../imagenes/juegos1.jpg"); 
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+    #ar_abajo_img_med2{
+        background-image: url("../imagenes/juegos2.jpg"); 
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+    #ar_abajo_img_der{
+        background-image: url("../imagenes/juegos3.jpg"); 
+        background-position: center;
+        background-size: cover; 
+        width: 50%;
+    }
+
+    aside{
+        float: left;
+        width: 100%;
+        padding-top: 10.7em;
+    }
+
+    #titu_noticia{
+        background: #f2f3f4;
+    }
+
+    #noticias_novedades{
+        float: left;
+        width: 100%;
+
+
+    }
+
+    #inicio{
+        width: 100%;
+
+    }
+
+    #Requisit{
+        padding-top: 23em;
+    }
+
+    #foot1{
+        padding-top: 54em;
+    }
+
+    #espacio2_blanco{
+        height: 0em;
+    }
+    
+    #asi{
+        padding-top: 20em;
+    }
+
+    #dtall_1{
+        width: 100%;
+        height: 85%;
+    }
+    
+    #dtall_2{
+        width: 100%;
+        height: 85%;
+    }
+    
+    #dtall_3{
+        width: 100%;
+        height: 85%;
+    }
+    
+    #dtall_4{
+        width: 100%;
+        height: 85%;
+    }
+   
+}
+
+/*---Iniciar sesion----------------------------------------------------------------------------------------------*/
+#main{
+    height: 120px;
+}
+
+#foot{
+    padding-top: 8em;
+}
+
+.login a{
+    text-decoration: none;
+    color: #000000;
+}
+#vacio{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+#inicio{
+    float: left;
+    width: 50%;
+
+}
+
+/*--Descripcion juego Ori---------------------------------------------------------------------------------------------------*/
+
+#mai{
+    width: 100%;
+    height: 1255px;
+}
+
+#art{
+    width: 100%;
+    height: 620px;
+}
+
+#imag_ori{
+    float: left;
+    width: 100%;
+    height: 470px;
+}
+
+#imag_ori img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#dtall{
+    float: left;
+    width: 100%;
+    height: 120px;
+
+}
+
+.detal{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding-top: 0.8em;
+
+}
+/*
+#dtall_1{
+    background: #ffaaaa;
+}
+#dtall_2{
+    background: #afaafa;
+}
+#dtall_3{
+    background: #324aaa;
+}
+#dtall_4{
+    background: #ffa563;
+}
+*/
+#Desarroll{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#etique{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#edit{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#platafor{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#fechLanz{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#camp{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#preci{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+#nomJuego{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+.detal h2{
+    font-size: 1.2em;
+    color: #e79600;
+    display: inline;
+}
+
+.detal p{
+    line-height: 0em;
+    font-size: 1.1em;
+    color: #000000;
+}
+
+#asi{
+    float: left;
+    width: 100%;
+    height: 700px;
+
+}
+
+#Especif{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#Descrip{
+    float: left;
+    width: 100%;
+    height: 50%;
+
+}
+
+#descrip_titu{
+    float: left;
+    width: 100%;
+    height: 15%;
+    background: #f2f3f4; 
+}
+
+#descrip_titu p{
+    color: #000000;
+    font-size: 1.4em;
+    line-height: 0em;
+}
+
+#descrip_conten{
+    float: left;
+    width: 99%;
+    height: 85%;
+
+}
+
+#descrip_conten p{
+    color: #000000;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#Requisit{
+    float: left;
+    width: 100%;
+    height: 50%;
+
+}
+
+#Requisit_min{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+#Requisit_recomen{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+.Requisit_titu {
+    float: left;
+    width: 100%;
+    height: 10%;
+    background: #f2f3f4;
+}
+
+.Requisit_titu p{
+    color: #000000;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 0em;
+}
+
+.Requisit_cont {
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+
+.Requisit_cont p{
+    color: #000000;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
